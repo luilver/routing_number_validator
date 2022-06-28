@@ -2,11 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/tippenein/routing_number_validator.png)](http://travis-ci.org/tippenein/routing_number_validator)
 
-Rails 3 and 4 Bank Routing Number validator
-
-This gem is intended to be a minimal application of validations provided in
-larger libraries (see `ActiveMerchant`) if a more minimal implementation is
-intended.
+Routing Number Validator is a gem intended to be a minimal application of
+validations provided in larger libraries (see `ActiveMerchant`) if a more
+minimal implementation is intended.
 
 Use this gem as if it was just another ActiveModel validator (because it is)
 
