@@ -1,5 +1,18 @@
 # encoding: UTF-8
+require 'active_model'
 require 'spec_helper'
+
+class TestModel
+  include ActiveModel::Validations
+
+  def initialize(attributes = {})
+    @attributes = attributes
+  end
+
+  def read_attribute_for_validation(key)
+    @attributes[key]
+  end
+end
 
 class TestBilling < TestModel
   validates :routing_number, :routing_number => true
