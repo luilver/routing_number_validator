@@ -37,7 +37,7 @@ validates :my_routing_number, :routing_number => true
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/routing_number_validator/fork )
+1. Fork it ( https://github.com/luilver/routing_number_validator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
